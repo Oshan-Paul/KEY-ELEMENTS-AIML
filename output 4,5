@@ -1,0 +1,107 @@
+Experiment 5: Exploratory Data Analysis Using Python with Graphs
+
+Please upload the dataset file:
+housing.csv
+housing.csv(text/csv) - 1423529 bytes, last modified: 10/4/2024 - 100% done
+Saving housing.csv to housing.csv
+
+Dataset 'housing.csv' loaded successfully!
+
+Exploratory Data Analysis (EDA):
+
+1. Number of Rows and Columns:
+Rows: 20640, Columns: 10
+
+2. First Five Rows of the Dataset:
+   longitude  latitude  housing_median_age  total_rooms  total_bedrooms  \
+0    -122.23     37.88                41.0        880.0           129.0   
+1    -122.22     37.86                21.0       7099.0          1106.0   
+2    -122.24     37.85                52.0       1467.0           190.0   
+3    -122.25     37.85                52.0       1274.0           235.0   
+4    -122.25     37.85                52.0       1627.0           280.0   
+
+   population  households  median_income  median_house_value ocean_proximity  
+0       322.0       126.0         8.3252            452600.0        NEAR BAY  
+1      2401.0      1138.0         8.3014            358500.0        NEAR BAY  
+2       496.0       177.0         7.2574            352100.0        NEAR BAY  
+3       558.0       219.0         5.6431            341300.0        NEAR BAY  
+4       565.0       259.0         3.8462            342200.0        NEAR BAY  
+
+3. Number of Missing Values per Column:
+longitude               0
+latitude                0
+housing_median_age      0
+total_rooms             0
+total_bedrooms        207
+population              0
+households              0
+median_income           0
+median_house_value      0
+ocean_proximity         0
+dtype: int64
+
+4. Summary Statistics of Numerical Columns:
+
+Sum of values:
+longitude            -2.467919e+06
+latitude              7.354416e+05
+housing_median_age    5.911190e+05
+total_rooms           5.440215e+07
+total_bedrooms        1.099031e+07
+population            2.942184e+07
+households            1.031050e+07
+median_income         7.989065e+04
+median_house_value    4.269504e+09
+dtype: float64
+
+Average of values:
+longitude               -119.569704
+latitude                  35.631861
+housing_median_age        28.639486
+total_rooms             2635.763081
+total_bedrooms           537.870553
+population              1425.476744
+households               499.539680
+median_income              3.870671
+median_house_value    206855.816909
+dtype: float64
+
+Minimum values:
+longitude              -124.3500
+latitude                 32.5400
+housing_median_age        1.0000
+total_rooms               2.0000
+total_bedrooms            1.0000
+population                3.0000
+households                1.0000
+median_income             0.4999
+median_house_value    14999.0000
+dtype: float64
+
+Maximum values:
+longitude               -114.3100
+latitude                  41.9500
+housing_median_age        52.0000
+total_rooms            39320.0000
+total_bedrooms          6445.0000
+population             35682.0000
+households              6082.0000
+median_income             15.0001
+median_house_value    500001.0000
+dtype: float64
+
+5. Size of the Dataset in Memory (in bytes):
+2829148
+
+6. Data Types of Each Column:
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+ocean_proximity        object
+
